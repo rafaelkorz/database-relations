@@ -1,7 +1,5 @@
-import { productsRouter } from '@modules/products/infra/http/routes/products.routes';
-import Product, {
-  Product,
-} from '@modules/products/infra/typeorm/entities/Product';
+// import { productsRouter } from '@modules/products/infra/http/routes/products.routes';
+import Product from '@modules/products/infra/typeorm/entities/Product';
 import { getRepository, Repository, In } from 'typeorm';
 
 import IProductsRepository from '@modules/products/repositories/IProductsRepository';

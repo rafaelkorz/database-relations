@@ -8,7 +8,6 @@ import {
 } from 'typeorm';
 
 import OrdersProducts from '@modules/orders/infra/typeorm/entities/OrdersProducts';
-import { uptime } from 'os';
 
 @Entity('products')
 class Product {
